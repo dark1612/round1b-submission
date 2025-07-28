@@ -1,0 +1,6 @@
+pymupdf
+sentence-transformers
+torch
+numpy
+scikit-learn
+pdfplumber

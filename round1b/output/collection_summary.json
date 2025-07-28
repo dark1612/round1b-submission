@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-27T23:20:08.884943"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Overview",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Introduction",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Overview",
+      "importance_rank": 3,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Overview",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Introduction",
+      "importance_rank": 5,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 2,
+      "refined_text": "General Packing Tips and Tricks \n• \nLayering: The weather can vary, so pack layers to stay comfortable in diﬀerent \ntemperatures. \n• \nVersatile Clothing: Choose items that can be mixed and matched to create multiple \noutfits, helping you pack lighter. \n• \nPacking Cubes: Use packing cubes to organize your clothes and maximize suitcase \nspace. \n• \nRoll Your Clothes: Rolling clothes saves space and reduces wrinkles. \n• \nTravel-Sized Toiletries: Bring travel-sized toiletries to save space and comply with \nairline regulations. \n• \nReusable Bags: Pack a few reusable bags for laundry, shoes, or shopping. \n• \nFirst Aid Kit: Include a small first aid kit with band-aids, antiseptic wipes, and any \nnecessary medications. \n• \nCopies of Important Documents: Make copies of your passport, travel insuranc"
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 1,
+      "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, \nPlanning, and Exploring \nIntroduction \nPlanning a trip to the South of France requires thoughtful preparation to ensure a \ncomfortable and enjoyable experience. This guide covers everything from packing essentials \nto travel tips, catering to all seasons and various activities. Whether you're traveling solo, with \nkids, or in a group, this guide will help you make the most of your trip. \n \n \n"
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 2,
+      "refined_text": "Coastal Adventures \nThe South of France is renowned for its beautiful coastline along the Mediterranean Sea. Here \nare some activities to enjoy by the sea: \nBeach Hopping \n• \nNice: Visit the sandy shores and enjoy the vibrant Promenade des Anglais. \n• \nAntibes: Relax on the pebbled beaches and explore the charming old town. \n• \nSaint-Tropez: Experience the exclusive beach clubs and glamorous atmosphere. \n• \nMarseille to Cassis: Explore the stunning limestone cliﬀs and hidden coves of \nCalanques National Park. \n• \nÎles d'Hyères: Discover pristine beaches and excellent snorkeling opportunities on \nislands like Porquerolles and Port-Cros. \n• \nCannes: Enjoy the sandy beaches and luxury beach clubs along the Boulevard de la \nCroisette. \n• \nMenton: Visit the serene beaches and beautiful gardens "
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page_number": 2,
+      "refined_text": "Overview of the Region \nThe South of France, or \"Le Midi,\" encompasses the regions of Provence-Alpes-Côte d'Azur, \nOccitanie, and parts of Nouvelle-Aquitaine. This area is renowned for its diverse landscapes, \nfrom the sun-drenched beaches of the French Riviera to the rolling vineyards of Provence and \nthe rugged Pyrenees mountains. The Mediterranean climate ensures warm summers and \nmild winters, making it a year-round destination. The South of France is also famous for its \ncuisine, wines, and vibrant cultural scene. \nTravel Tips \n• \nBest Time to Visit: The best time to visit the South of France is during the spring (April \nto June) and fall (September to October) when the weather is pleasant, and the tourist \ncrowds are smaller. \n• \nTransportation: The region is well-connected by an ext"
+    },
+    {
+      "document": "South of France - History.pdf",
+      "page_number": 1,
+      "refined_text": "A Historical Journey Through the South of France \nIntroduction \nThe South of France, renowned for its picturesque landscapes, charming villages, and \nstunning coastline, is also steeped in history. From ancient Roman ruins to medieval \nfortresses and Renaissance architecture, this region oﬀers a fascinating glimpse into the past. \nThis guide will take you through the histories of major cities, famous historical sites, and other \npoints of interest to help you plan an enriching and unforgettable trip. \n \n \n"
+    }
+  ]
+}
