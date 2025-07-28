@@ -74,6 +74,12 @@ json
 
 ---
 
+
+## Output 
+
+![Round1B](https://github.com/user-attachments/assets/9775021c-c303-4d88-979d-c3085b2c07df)
+
+
 ## ⚙ Design Highlights
 
 * *Lightweight & Efficient*: The solution runs fully on CPU, ensuring low memory usage and fast execution.
