@@ -1,15 +1,14 @@
 import os
-import fitz  # PyMuPDF
+import fitz 
 import json
 
 def extract_outline(pdf_path):
     doc = fitz.open(pdf_path)
-    # --- YOUR LOGIC HERE: Find title and headings using font sizes/positions ---
-    # For demonstration, here's a mock outline
+   
     outline = [
         {'level': 'H1', 'text': 'Introduction', 'page': 1},
         {'level': 'H2', 'text': 'Overview', 'page': 2}
-        # Add more by analyzing doc with fitz (get_textpage, font sizes, etc.)
+        
     ]
     title = doc.metadata.get('title', os.path.basename(pdf_path))
     return {'title': title, 'outline': outline}
