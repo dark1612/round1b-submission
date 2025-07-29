@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from datetime import datetime
 
 def load_persona_job(input_dir):
-    # Assumes 'input.json' is the provided challenge1b_input.json
+   
     path = os.path.join(input_dir, 'input.json')
     with open(path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -63,7 +63,6 @@ def main(input_dir='input', output_dir='output'):
 
     all_sections = []
     all_documents = [doc["filename"] for doc in documents]
-    # Gather and globally rank all sections from all PDFs
     for doc in documents:
         pdf_fn = doc["filename"]
         outline_json_fn = pdf_fn.replace('.pdf', '.json')
@@ -79,16 +78,16 @@ def main(input_dir='input', output_dir='output'):
             sec['document'] = pdf_fn
         all_sections.extend(ranked_sections)
 
-    # Sort all sections by their score (global top N)
+    
     all_sections = sorted(all_sections, key=lambda x: x.get('score', 0), reverse=True)
-    top_n = 5  # Number of top sections for extracted_sections
+    top_n = 5 
     top_sections = all_sections[:top_n]
 
-    # Assign importance rank
+    
     for idx, sec in enumerate(top_sections):
         sec['importance_rank'] = idx + 1
 
-    # Subsection analysis for each top section (can take multiple subsections per section)
+    
     all_subsections = []
     for sec in top_sections:
         refined_subsections = extract_top_subsections(sec, query, model, N=2)
